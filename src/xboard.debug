@@ -1,0 +1,203 @@
+locale = LC_CTYPE=en_US.UTF-8;LC_NUMERIC=ro_RO.UTF-8;LC_TIME=ro_RO.UTF-8;LC_COLLATE=en_US.UTF-8;LC_MONETARY=ro_RO.UTF-8;LC_MESSAGES=en_US.UTF-8;LC_PAPER=ro_RO.UTF-8;LC_NAME=ro_RO.UTF-8;LC_ADDRESS=ro_RO.UTF-8;LC_TELEPHONE=ro_RO.UTF-8;LC_MEASUREMENT=ro_RO.UTF-8;LC_IDENTIFICATION=ro_RO.UTF-8
+recognized 'normal' (-1) as variant normal
+recognized 'normal' (-1) as variant normal
+recognized 'normal' (-1) as variant normal
+shuffleOpenings = 0
+shuffleOpenings = 0
+Version: xboard 4.9.1 + java ()
+Reset(1, 0) from gameMode 0
+recognized 'normal' (-1) as variant normal
+GameEnds(0, (null), 2)
+shuffleOpenings = 0
+StartChildProcess (dir=".") java -jar ./dist/l2-pa-project-samanii.jar
+107 >first : xboard
+protover 2
+178 <first : #[LOGGER] Engine has successfully been started.
+178 <first : #[LOGGER] Received protover command.
+178 <first : feature sigint=0 sigterm=0 san=0 done=1
+178 >first : accepted sigint
+178 >first : accepted sigterm
+178 >first : accepted san
+178 >first : accepted done
+179 >first : new
+random
+179 >first : level 0 5 2
+179 >first : post
+179 >first : hard
+180 <first : #[LOGGER] Starting a new game.
+183 <first : #[LOGGER] Leaving force mode.
+nps: w=-1, b=-1
+nps: w=-1, b=-1
+15487 >first : time 30000
+15487 >first : otim 30200
+book hit = (NULL)
+15487 >first : e2e4
+16814 <first : move g8f6
+19546 >first : time 30067
+19546 >first : otim 30126
+book hit = (NULL)
+19546 >first : d2d3
+20932 <first : move h8g8
+27788 >first : time 30128
+27788 >first : otim 29641
+book hit = (NULL)
+27788 >first : b1c3
+29537 <first : move g8h8
+39231 >first : time 30153
+39231 >first : otim 28871
+book hit = (NULL)
+39231 >first : c1g5
+40286 <first : move h7h6
+42522 >first : time 30248
+42522 >first : otim 28848
+book hit = (NULL)
+42522 >first : g5f6
+44619 <first : move g7f6
+50304 >first : time 30238
+50304 >first : otim 28479
+book hit = (NULL)
+50304 >first : g1f3
+51121 <first : move h8h7
+56785 >first : time 30356
+56785 >first : otim 28113
+book hit = (NULL)
+56785 >first : g2g3
+57854 <first : move f8g7
+60442 >first : time 30449
+60442 >first : otim 28054
+book hit = (NULL)
+60442 >first : f1h3
+62201 <first : move e8f8
+77375 >first : time 30473
+77375 >first : otim 26737
+book hit = (NULL)
+77375 >first : e4e5
+79235 <first : move h7h8
+84693 >first : time 30487
+84693 >first : otim 26391
+book hit = (NULL)
+84758 >first : e5f6
+89473 <first : move g7f6
+93058 >first : time 30209
+93058 >first : otim 26233
+book hit = (NULL)
+93058 >first : c3d5
+94381 <first : move f6b2
+99748 >first : time 30277
+99748 >first : otim 25896
+book hit = (NULL)
+99748 >first : a1b1
+101115 <first : move e7e6
+119683 >first : time 30340
+119683 >first : otim 24239
+book hit = (NULL)
+119683 >first : d5f4
+121963 <first : move b2c3
+126529 >first : time 30312
+126529 >first : otim 23983
+book hit = (NULL)
+126529 >first : f3d2
+130272 <first : move d8g5
+138998 >first : time 30138
+138998 >first : otim 23310
+book hit = (NULL)
+138998 >first : b1b3
+146852 <first : move c3d2
+151680 >first : time 29553
+151680 >first : otim 23027
+book hit = (NULL)
+151680 >first : d1d2
+153012 <first : move g5e5
+158697 >first : time 29619
+158697 >first : otim 22659
+book hit = (NULL)
+158762 >first : e1d1
+161268 <first : move e5a1
+166075 >first : time 29562
+166075 >first : otim 22378
+book hit = (NULL)
+166075 >first : d1e2
+167403 <first : move c7c5
+173017 >first : time 29629
+173017 >first : otim 22017
+book hit = (NULL)
+173017 >first : h3f1
+174070 <first : move h8h7
+186020 >first : time 29724
+186020 >first : otim 21022
+book hit = (NULL)
+186020 >first : d3d4
+187482 <first : move e6e5
+192764 >first : time 29778
+192765 >first : otim 20694
+book hit = (NULL)
+192765 >first : d4e5
+194171 <first : move a1e5
+202663 >first : time 29837
+202663 >first : otim 20044
+book hit = (NULL)
+202663 >first : e2d1
+204227 <first : move f8e8
+218846 >first : time 29881
+218846 >first : otim 18782
+book hit = (NULL)
+218846 >first : f4g6
+220964 <first : move b8c6
+224164 >first : time 29869
+224164 >first : otim 18662
+book hit = (NULL)
+224164 >first : g6e5
+224957 <first : move c6e5
+234138 >first : time 29990
+234138 >first : otim 17944
+book hit = (NULL)
+234138 >first : f2f4
+235000 <first : move e5c6
+241038 >first : time 30103
+241038 >first : otim 17541
+book hit = (NULL)
+241038 >first : f1b5
+241700 <first : move e8d8
+244371 >first : time 30237
+244371 >first : otim 17474
+book hit = (NULL)
+244371 >first : b5c6
+244808 <first : move b7c6
+251874 >first : time 30393
+251874 >first : otim 16967
+book hit = (NULL)
+251874 >first : g3g4
+252291 <first : move d8c7
+253823 >first : time 30552
+253824 >first : otim 17014
+book hit = (NULL)
+253824 >first : g4g5
+254243 <first : move c8b7
+256175 >first : time 30710
+256175 >first : otim 17021
+book hit = (NULL)
+256175 >first : g5h6
+256925 <first : move a8h8
+271993 >first : time 30835
+271993 >first : otim 15714
+book hit = (NULL)
+271993 >first : d2b4
+272144 <first : move c5b4
+274294 >first : time 31020
+274294 >first : otim 15699
+book hit = (NULL)
+274294 >first : b3b4
+274526 <first : move h7h6
+280918 >first : time 31196
+280918 >first : otim 15260
+book hit = (NULL)
+280918 >first : h1e1
+281012 <first : Exception in thread "main" java.lang.NullPointerException
+281012 <first : 	at engine.chess.Table.movePiece(Table.java:243)
+281012 <first : 	at engine.parser.commands.Move.accept(Move.java:32)
+281012 <first : 	at engine.Main.main(Main.java:29)
+390070 >first : ?
+GameEnds(27, Error writing to first chess program, 2)
+391106 >first : result 0-1 {Error writing to first chess program}
+391106 >first : force
+391106 >first : quit

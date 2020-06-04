@@ -1,0 +1,34 @@
+# Proiect Proiectarea Algoritmilor (Calculatoare) - Samanii
+# Contributors:
+	# -> Dochian Alexandru Adrian
+	# -> Mihai Cătălin Valentin
+	# -> Rîjniță Daniel
+
+"cd src"  
+"make"  
+After running the above commands, the engine will be prepared as a jar file.  
+The current version supports basic commands, such as:
+xboard, new, force, go, white, black, quit, resign, move  
+When switching teams, the engine should be forced to make a move by using the  
+"move now" command inside the xboard.  
+
+# Setup XBoard
+
+    > `sudo apt-get install xboard`  
+    > Documentation:  
+    > https://www.gnu.org/software/xboard/engine-intf.html  
+
+ - [x] Java <-> Xboard interaction (send & receive data)
+ - [x] Basic commands (xboard, new, force, go, white, black, quit, resign, move)
+ - [x] Minimax with alpha-beta pruning
+
+### Notes:  
+#### How to play against the Java engine:  
+run "make" inside the src folder
+run "make run" to play against the engine
+
+#### Logger and debugging:
+In order to output text, you should use the Logger class. To log a message, call  
+`Logger.log("Your-message-here");`  
+The message will be displayed inside the *xboard.debug* file, created by Xboard when  
+the *-debug* parameter is set.  
